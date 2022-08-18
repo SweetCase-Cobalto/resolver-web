@@ -6,6 +6,10 @@
 ![](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 ![](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
+
+Resolver Web Version
+* [Backend Repo](https://github.com/SweetCase-Cobalto/resolver)
+
 내가 불편해서 만든 웹 서비스
 
 내가 불편해서 직접 개발한 자동화 알고리즘 코드를 서버에 부착해서 서비스하는 프로젝트 입니다. 서버는 NodeJS 기반이자만, 알고리즘 에 사용되는 언어는 그 어떤 언어이든 상관 없습니다. Web은 ReactJS로 구현되었습니다.
@@ -16,9 +20,6 @@
 |서비스명|설명|구현 언어|
 |---|---|---|
 |[PCFL](https://github.com/Vector-7/PCFL)|Midi파일에서 연속된 서스테인(CC64)의 간격을 벌려서 FL Studio에서 임포트 할 때 불협화음이 발생하지 않게 처리|Python3.9|
-
-Resolver Web Version
-* [Backend Repo](https://github.com/SweetCase-Cobalto/resolver)
 
 ## 설치 방법 (개발자 기준)
 1. Repository를 다운받습니다.
