@@ -7,7 +7,6 @@ const ResolverNavbar = () => {
                 <Navbar.Brand href="/">Resolver</Navbar.Brand>
                 <Nav className="me-auto">
                     <Nav.Link href="/publics/pcfl">PCFL</Nav.Link>
-                    <Nav.Link>About_Creator</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>

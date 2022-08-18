@@ -2,10 +2,11 @@ import styled from "styled-components";
 import { Form, Button } from "react-bootstrap";
 import { useState } from "react";
 import fileDownload from "js-file-download";
+import axios from "axios";
 
 import ResolverNavbar from "../../../components/ResolverNavbar";
 import { MainLayer } from "../../../components/Layers";
-import axios from "axios";
+import { serverUrl } from "../../../vars/server";
 
 const PCFLPage = () => {
 
@@ -31,7 +32,7 @@ const PCFLPage = () => {
         formData.append('file', inputs.file, inputs.file.name);
         formData.append('interval', inputs.interval);
         // 백엔드 전송
-        const url = 'http://localhost:8000/api/public/pcfl'
+        const url = `${serverUrl}/api/public/pcfl`;
         axios.post(url, formData, {
             responseType: 'blob',
             headers: {
