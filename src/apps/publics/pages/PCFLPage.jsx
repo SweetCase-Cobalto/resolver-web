@@ -3,6 +3,7 @@ import { Form, Button } from "react-bootstrap";
 import { useState } from "react";
 import fileDownload from "js-file-download";
 import axios from "axios";
+import { Helmet } from "react-helmet";
 
 import ResolverNavbar from "../../../components/ResolverNavbar";
 import { MainLayer } from "../../../components/Layers";
@@ -64,6 +65,9 @@ const PCFLPage = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Pedal Compensator for FLstudio</title>
+            </Helmet>
             <ResolverNavbar />
             <MainLayer>
                 <center>

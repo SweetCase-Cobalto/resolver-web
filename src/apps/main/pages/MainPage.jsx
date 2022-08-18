@@ -1,9 +1,13 @@
 import { MainLayer } from "../../../components/Layers";
 import ResolverNavbar from "../../../components/ResolverNavbar";
+import { Helmet } from "react-helmet";
 
 const MainPage = () => {
     return (
         <div>
+            <Helmet>
+                <title>Resolver</title>
+            </Helmet>
             <ResolverNavbar />
             <MainLayer>
                 <center>
