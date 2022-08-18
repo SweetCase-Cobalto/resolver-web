@@ -1,8 +1,7 @@
 # Resolver [Web]
 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fd177fed-d21b-4e0a-a049-a3be23d1d235/deploy-status)](https://app.netlify.com/sites/adorable-cheesecake-aef35c/deploys)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fd177fed-d21b-4e0a-a049-a3be23d1d235/deploy-status)](https://app.netlify.com/sites/sweetresolver/deploys)
 
 ![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
